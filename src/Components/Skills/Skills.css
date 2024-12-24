@@ -1,0 +1,41 @@
+.skillCap{
+    width: fit-content;
+    transform-box: content-box;
+    animation: expand ease-in-out forwards;
+    animation-timeline: view();
+    animation-range-start: 0px;
+    animation-range-end: 150px;
+}
+
+@keyframes expand{
+    to{
+        width: 100%;
+    } 
+}
+
+.skillDiv{
+    scale: 0.2;
+    animation: pop forwards;
+    animation-timeline: view();
+    animation-range-start: 0px;
+    animation-range-end: 230px;
+    transform: translateY(100px);
+}
+
+.skillMain{
+    background-color: beige;
+}
+
+
+
+@keyframes pop{
+    from{
+        scale: 0.2;
+        opacity: 0;
+    }
+    to{
+        scale: 1;
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

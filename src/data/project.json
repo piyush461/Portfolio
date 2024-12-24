@@ -1,0 +1,23 @@
+[
+  {
+    "Url": "img/numberguess.png",
+    "name": "Number Guessing Game",
+    "desc": "This is a number guessing game built using HTML, CSS, and JavaScript. The game generates a random number, and the player must guess it within a certain number of attempts. Feedback is provided for each guess, indicating whether the number is too high or too low. The game has a simple, responsive design.",
+    "srcURL": "https://mynumberguessinggame.netlify.app",
+    "gitURL": "https://github.com/piyush461/NumberGuessingGame"
+  },
+  {
+    "Url": "img/calculator.png",
+    "name": "Web-Based Calculator",
+    "desc": "This is a simple web-based calculator built using HTML, CSS, and JavaScript. It features basic arithmetic functions like addition, subtraction, multiplication, and division, with a clean, user-friendly interface. The design is responsive, ensuring it works well on both desktop and mobile devices.",
+    "srcURL": "https://calculator-for-web.netlify.app/",
+    "gitURL": "https://github.com/piyush461/codsoft-3_Calculator"
+  },
+  {
+    "Url": "img/fishworld.png",
+    "name": "Landing Page",
+    "desc": "This was my first ever build web application. During my internship task I build an Ecommerce landing page focusing fisheries and aquarium related E-Store.",
+    "srcURL": "https://fishworld.netlify.app",
+    "gitURL": "https://github.com/piyush461/codsoft_level-1_--1"
+  }
+]

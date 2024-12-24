@@ -1,0 +1,79 @@
+.ContactInfo{
+    transform: translateX(-500px);
+    animation: slideRight 5s linear forwards;
+    animation-timeline: view();
+    animation-delay: 5s ease;
+    animation-range-start: 0px;
+    animation-range-end: 250px;
+}
+
+
+.ContactForm{
+    transform: translateX(-500px);
+    animation: slideLeft  linear forwards;
+    animation-timeline: view();
+    animation-range-start:   0px;
+    animation-range-end: 250px;
+}
+
+.squeezeDiv{
+    animation: squeeze linear forwards;
+    animation-timeline: view();
+    animation-range-start: 100px;
+    animation-range-end: 300px;
+}
+
+.bar{
+    transform: translateY(-100px);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    animation: bouncing ease-in-out forwards;
+    animation-timeline: view();
+    animation-range-start: 100px;
+    animation-range-end:300px;
+}
+
+@keyframes bouncing{
+    0%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0px);
+        width: 4px;
+        height: 200px;
+        border-radius: 1%;
+    }
+}
+
+@keyframes squeeze{
+    from{
+        transform: scaleX(1);
+    }
+    to{
+        transform: scaleX(0);
+    }
+}
+
+
+@keyframes slideRight{
+    from{
+        transform: translateX(-500px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes slideLeft{
+    from{
+        transform: translateX(500px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+.Toastify__toast-container {
+    z-index: 9999 !important;
+  }

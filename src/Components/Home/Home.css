@@ -1,0 +1,29 @@
+.avatar {
+    animation: float 2s ease-in-out infinite;
+}
+
+#homeDiv{
+    animation: fadeGo ease forwards;
+    animation-timeline: view();
+    animation-range: exit -100px;
+}
+
+@keyframes fadeGo {
+    0%{
+    }
+    50%, 100%{
+        opacity: 0;
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}

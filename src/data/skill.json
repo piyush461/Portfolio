@@ -1,0 +1,58 @@
+{
+  "languages": [
+    {
+      "imgUrl": "img/html.svg",
+      "caption": "HTML",
+      "color": "#E44F26"
+    },
+    {
+      "imgUrl": "img/css.svg",
+      "caption": "CSS",
+      "color": "#264de4"
+    },
+    {
+      "imgUrl": "img/js.svg",
+      "caption": "JavaScript",
+      "color": "#F7DF1E"
+    },
+    {
+      "imgUrl": "img/java.svg",
+      "caption": "Java",
+      "color": "#E76F00"
+    }
+  ],
+  "frameworks": [
+    {
+      "imgUrl": "img/react.svg",
+      "caption": "React Js",
+      "color": "#53C1DE"
+    },
+    {
+      "imgUrl": "img/vite.svg",
+      "caption": "Vite",
+      "color": "#646CFF"
+    },
+    {
+      "imgUrl": "img/bootstrap.svg",
+      "caption": "Bootstrap",
+      "color": "#7952B3"
+    },
+    {
+      "imgUrl": "img/tailwind.svg",
+      "caption": "Tailwind",
+      "color": "#38BDF8"
+    }
+  ],
+  "tools": [
+    {
+      "imgUrl": "img/vs-code.svg",
+      "caption": "VS Code",
+      "color": "#007ACC"
+    },
+    {
+      "imgUrl": "img/xampp.svg",
+      "caption": "XAMPP",
+      "color": "#FB7A24"
+    }
+  ]
+}

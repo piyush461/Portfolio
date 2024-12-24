@@ -1,0 +1,78 @@
+.aboutDiv p{
+    opacity: 0;
+    animation: slideIn forwards;
+    animation-timeline: view();
+    animation-range-start: 50px;
+    animation-range-end: 250px;
+}
+
+.aboutDiv{
+    animation: fadeGo ease forwards;
+    animation-timeline: view();
+    animation-range: exit -100px;
+}
+
+@keyframes slideIn{
+    from{
+        transform: translateX(-200px);
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+#project button{
+    opacity: 0;
+    animation: button ease forwards;
+    animation-timeline: view();
+    animation-range-start: 50px;
+    animation-range-end: 100px;
+}
+
+#project{
+    cursor: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACKUlEQVR4nO2aPU8bQRCGN1DkV4QmEilQ0gTvHB+pIiQk6kiRaBBV/gW/IRINFUUKJFJ7xggQiK8gSgqU2MxcR4nkgBEEwaE9uMS+2HwY73J33CtNs9Psc+/uzs7qlMqVKzkqFLkXUNaAuKaJVwex/FqlUYC8BSRBFAZGpVEa5bwRRE5VGgV1EFGoNApykIQJckcSJsgdSZggdyRhgtyRFDnSX6q80iiLQFIFkqX3i9yj0ggCxAuNOV6Icua6b27KgHxsbtAFqvQ9GcRdIOYmHMudRTkgWY5B/lCJdQT5sjUknzTkUP5EuX6SN5pk3bilibeduNU2SKyPAeKLfzleaehxUDYTBzJQqgx6JdbxcQNWB3nUakk6BQHk4TCa5VpH3f7hC+fN2gMne2to9D1N/OFJiix0EOS2UDnIs3FkKugqkP8l1SCjWH6piedcQYAtECD5ft8JmLoRP4rDWlLcH7prDGyCFHD/Yztfsp0xsAmiSb5lAgSIOSsgtUyAaOLDTIAAyU4mQDTy14yA+F4mQFQQvNAolfSDqHB5Td4XxFTreI8RVvBYtW82BrZBPs0H3UDy6yFL7JFRVbYE5E+4AtHEe9ZAQleQfzoBQZ5VNuUhjztyZMwqyM1e2bEMsW1OSmVbXpHfmqccOxDyG5DfKVcC9D+bJ8+OQ5R4RLnWdb2Q3Q5BbJifdZxD/NVU0GW+IqBMm7UNyAdNXuT/j+vH6j0gnjEd6GPncQVPsyjsM5IQCAAAAABJRU5ErkJggg=='),auto;
+}
+
+@keyframes button{
+    to{
+        opacity: 1;
+    }
+}
+
+.SectionHead{
+    opacity: 0;
+    animation: sectionH ;
+    animation-fill-mode: both;
+    animation-timeline: view();
+    animation-range-start: 50px;
+    animation-range-end: 450px;
+}
+
+.checkOut {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1.5px solid white;
+    background: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.2s ease;
+}
+
+.checkOut:active {
+    background: black;
+    color: white;
+    transform: scale(0.95);
+    border: 1px solid white;
+}
+
+
+
+@keyframes sectionH{
+    to{
+        opacity: 1;
+    }
+}
