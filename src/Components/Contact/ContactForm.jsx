@@ -14,17 +14,13 @@ const ContactForm = () => {
     e.preventDefault();
     setEmail("");
     setName("");
-    setMessage("");
-    console.log("Name: " + name);
-    console.log("Email: " + email);
-    console.log("Message: " + message);
-
+    
     emailjs
       .sendForm(
         "service_i54hls3",
         "template_y7vhxrj",
         form.current,
-        "jSdlC0alRm7DJDOx5"
+        "-ks_e6AfytaMAlQBG"
       )
       .then(
         (result) => {
