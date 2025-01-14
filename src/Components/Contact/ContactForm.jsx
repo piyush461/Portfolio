@@ -56,7 +56,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="ContactForm max-md:w-[70%] w-[40%] h-[100%] bg-slate-700">
+    <div className="ContactForm max-md:w-[70%] w-[40%] h-[100%] bg-slate-700 text-white">
       <form onSubmit={submitHandler} ref={form} className="max-w-sm mx-auto">
         <div className="mb-5">
           <label
@@ -118,7 +118,7 @@ const ContactForm = () => {
             id="message"
             name="message"
             rows="4"
-            className="resize-none max-h-28 min-h-10 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-cyan-800 focus:ring-cyan-500 focus:border-cyan-500 dark:bg-gray-800 dark:border-cyan-800 dark:placeholder-gray-400 dark:text-white"
+            className="resize-none max-h-28 min-h-10 block p-2.5 w-full text-sm text-gray-900 rounded-lg border border-cyan-800 focus:ring-cyan-500 focus:border-cyan-500 bg-gray-800 dark:border-cyan-800 dark:placeholder-gray-400 dark:text-white"
             placeholder="Leave your message..."></textarea>
         </div>
         <button

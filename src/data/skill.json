@@ -8,10 +8,10 @@
     {
       "imgUrl": "img/css.svg",
       "caption": "CSS",
-      "color": "#264de4"
+      "color": "#1172B8"
     },
     {
-      "imgUrl": "img/js.svg",
+      "imgUrl": "img/Js.svg",
       "caption": "JavaScript",
       "color": "#F7DF1E"
     },
@@ -35,7 +35,7 @@
     {
       "imgUrl": "img/bootstrap.svg",
       "caption": "Bootstrap",
-      "color": "#7952B3"
+      "color": "#564D7C"
     },
     {
       "imgUrl": "img/tailwind.svg",
@@ -53,6 +53,16 @@
       "imgUrl": "img/xampp.svg",
       "caption": "XAMPP",
       "color": "#FB7A24"
+    },
+    {
+      "imgUrl": "img/git.png",
+      "caption": "Git",
+      "color": "#F16056"
+    },
+    {
+      "imgUrl": "img/github.png",
+      "caption": "GitHub",
+      "color": "black"
     }
   ]
 }
