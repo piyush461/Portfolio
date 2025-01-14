@@ -14,13 +14,14 @@ const ContactForm = () => {
     e.preventDefault();
     setEmail("");
     setName("");
+    setMessage("");
     
     emailjs
       .sendForm(
-        "service_i54hls3",
-        "template_y7vhxrj",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,     
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,   
         form.current,
-        "-ks_e6AfytaMAlQBG"
+        import.meta.env.VITE_EMAILJS_USER_ID
       )
       .then(
         (result) => {

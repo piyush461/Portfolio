@@ -29,20 +29,8 @@ const ProjectCard = (props) => {
         <p className="text-xl text-red-300 font-bold pl-2">{props.Name}</p>
         <p className="text-xs w-[100%] pl-2 pr-6">{props.Desc}</p>
       </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
-        commodi!
-      </div>
     </div>
   );
-};
-
-ProjectCard.propTypes = {
-  Url: PropTypes.string.isRequired,
-  Name: PropTypes.string.isRequired,
-  Desc: PropTypes.string.isRequired,
-  srcURL: PropTypes.string.isRequired,
-  gitURL: PropTypes.string.isRequired,
 };
 
 export default ProjectCard;
