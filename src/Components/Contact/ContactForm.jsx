@@ -56,7 +56,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="ContactForm max-md:w-[70%] w-[40%] h-[90%] bg-slate-700">
+    <div className="ContactForm max-md:w-[70%] w-[40%] h-[100%] bg-slate-700">
       <form onSubmit={submitHandler} ref={form} className="max-w-sm mx-auto">
         <div className="mb-5">
           <label
@@ -124,7 +124,7 @@ const ContactForm = () => {
         <button
           type="submit"
           value="send"
-          className="mt-6 ContactForm4 hover:text-cyan-200 hover:border-cyan-200 font-semibold focus:border text-[#1F2937] focus:scale-[.9] transition-all  focus:outline-none focus:ring-cyan-200 border-[2px] border-[#1F2937] text-sm w-full max-md:w-auto sm:w-auto px-5 py-2.5 text-center">
+          className="mt-6 ContactForm4 hover:text-cyan-200 hover:outline-cyan-200 font-semibold text-[#1F2937] transition-all  focus:ring-cyan-200 outline  outline-[#1F2937] text-sm w-full max-md:w-auto sm:w-auto px-5 py-2.5 text-center">
           Send
         </button>
       </form>

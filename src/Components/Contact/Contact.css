@@ -1,4 +1,4 @@
-.ContactInfo{
+/* .ContactInfo{
     transform: translateX(-500px);
     animation: slideRight 5s linear forwards;
     animation-timeline: view();
@@ -14,7 +14,7 @@
     animation-timeline: view();
     animation-range-start:   0px;
     animation-range-end: 250px;
-}
+} */
 
 .squeezeDiv{
     animation: squeeze linear forwards;

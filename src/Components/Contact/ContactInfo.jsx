@@ -1,7 +1,7 @@
 import '../Contact/Contact.css'
 const ContactInfo = () => {
   return (
-    <div className="ContactInfo  h-80  w-[40%] max-md:w-[95%] flex flex-col gap-10 justify-center items-center text-white bg-slate-700">
+    <div className="ContactInfo  w-[40%] max-md:w-[95%] flex flex-col gap-10 justify-center items-center text-white bg-slate-700">
       <div className="h-14 bg-gray-800 flex justify-start items-center gap-4 pl-8 py-2 w-[70%] max-md:w-[80%]">
         <svg
           xmlns="http://www.w3.org/2000/svg"

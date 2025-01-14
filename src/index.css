@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 * {
+    /* outline: 1px solid red; */
     font-family: 'Poppins', sans-serif;
     cursor: url('https://img.icons8.com/fluency/48/3d-pointer--v1.png'),auto;
 }

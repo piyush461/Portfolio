@@ -6,7 +6,7 @@ import { Bounce, ToastContainer } from "react-toastify";
 
 const Contact = () => {
   return (
-  <div className="h-auto relative pt-20 w-full pb-10">
+  <div className="h-[100%] relative pt-20 w-full pb-10">
     <ToastContainer
         position="bottom-left"
         autoClose={5000}
